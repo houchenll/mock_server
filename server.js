@@ -3,8 +3,8 @@ const http = require('http');
 const url = require('url');
 const fs = require('fs');
 
-const host = '172.25.6.106';
-const port = 9999;
+const host = '106.13.173.30';
+const port = 9876;
 
 // create server
 const server = http.createServer((req, res) => {
@@ -23,7 +23,12 @@ const server = http.createServer((req, res) => {
 })
 
 // start server
-server.listen(port, host, () => {
+// server.listen(port, host, () => {
+//     console.log(`server running at ${host}:${port}.`);
+// });
+
+// in server, don't set host when start server
+server.listen(port, () => {
     console.log(`server running at ${host}:${port}.`);
 });
 
