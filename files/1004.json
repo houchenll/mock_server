@@ -1,0 +1,48 @@
+{
+    "retCode": 0,
+    "retMsg": "",
+    "data": {
+        "items": [
+            {
+                "name": "诗词",
+                "books": [
+                    {
+                        "id": 101,
+                        "name": "诗经",
+                        "cover": "http://obzwut8kj.bkt.clouddn.com/poem/cover/shi_jing.jpg"
+                    },
+                    {
+                        "id": 102,
+                        "name": "唐诗三百首",
+                        "cover": "http://obzwut8kj.bkt.clouddn.com/poem/cover/tang_shi_san_bai_shou.jpg"
+                    },
+                    {
+                        "id": 103,
+                        "name": "宋词三百首",
+                        "cover": "http://obzwut8kj.bkt.clouddn.com/poem/cover/song_ci_san_bai_shou.jpg"
+                    },
+                    {
+                        "id": 104,
+                        "name": "元曲三百首",
+                        "cover": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2530050971,1274695918&fm=23&gp=0.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "主题",
+                "books": [
+                    {
+                        "id": 201,
+                        "name": "豪放派",
+                        "cover": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2530050971,1274695918&fm=23&gp=0.jpg"
+                    },
+                    {
+                        "id": 202,
+                        "name": "婉约派",
+                        "cover": "http://obzwut8kj.bkt.clouddn.com/poem/cover/shi_jing.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}
